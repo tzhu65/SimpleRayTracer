@@ -80,7 +80,7 @@ void RayTracer::setAntialiasAmount(int antialias_amount) {
 }
 
 void RayTracer::setAmbientShadow(float ambient_shadow) {
-    ambient_shadow_ = ambient_shadow_;
+    ambient_shadow_ = ambient_shadow;
 }
 
 // Generate an image based on the scene and camera
