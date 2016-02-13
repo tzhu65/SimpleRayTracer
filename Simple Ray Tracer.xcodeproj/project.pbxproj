@@ -7,7 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA8CA9311C6EA12F00754F8B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA9301C6EA12F00754F8B /* main.cpp */; };
+		EA7723121C6EB08E0067BC6E /* light.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7723111C6EB08E0067BC6E /* light.cpp */; };
+		EA7723141C6EB0A70067BC6E /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7723131C6EB0A70067BC6E /* material.cpp */; };
+		EA7723161C6EB0B80067BC6E /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7723151C6EB0B80067BC6E /* plane.cpp */; };
+		EA7723181C6EB0FF0067BC6E /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7723171C6EB0FF0067BC6E /* sphere.cpp */; };
+		EA77231A1C6EB10E0067BC6E /* surface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7723191C6EB10E0067BC6E /* surface.cpp */; };
+		EA77231D1C6EBE100067BC6E /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA77231C1C6EBE100067BC6E /* scene.cpp */; };
+		EA8CA9381C6EA13F00754F8B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8CA9371C6EA13F00754F8B /* OpenGL.framework */; };
+		EA8CA93A1C6EA14600754F8B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA8CA9391C6EA14600754F8B /* GLUT.framework */; };
+		EA8CA9421C6EA1F800754F8B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA93F1C6EA1F800754F8B /* main.cpp */; };
+		EA8CA94B1C6EA4C600754F8B /* point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA94A1C6EA4C600754F8B /* point.cpp */; };
+		EA8CA94D1C6EA54200754F8B /* vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA94C1C6EA54200754F8B /* vector.cpp */; };
+		EA8CA9531C6EA7DD00754F8B /* ray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA9521C6EA7DD00754F8B /* ray.cpp */; };
+		EA8CA9551C6EA8CE00754F8B /* color.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA9541C6EA8CE00754F8B /* color.cpp */; };
+		EA8CA9571C6EAA5700754F8B /* world.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA8CA9561C6EAA5700754F8B /* world.cpp */; };
+		EAC070B51C6EF2C100607A99 /* camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC070B41C6EF2C100607A99 /* camera.cpp */; };
+		EAC070B81C6EF9A800607A99 /* ray_tracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAC070B61C6EF9A800607A99 /* ray_tracer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +38,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA77230C1C6EACD20067BC6E /* surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = surface.h; sourceTree = "<group>"; };
+		EA77230D1C6EADB90067BC6E /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		EA77230E1C6EADC30067BC6E /* plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plane.h; sourceTree = "<group>"; };
+		EA77230F1C6EADE20067BC6E /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		EA7723101C6EADF20067BC6E /* light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = light.h; sourceTree = "<group>"; };
+		EA7723111C6EB08E0067BC6E /* light.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = light.cpp; sourceTree = "<group>"; };
+		EA7723131C6EB0A70067BC6E /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		EA7723151C6EB0B80067BC6E /* plane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = plane.cpp; sourceTree = "<group>"; };
+		EA7723171C6EB0FF0067BC6E /* sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sphere.cpp; sourceTree = "<group>"; };
+		EA7723191C6EB10E0067BC6E /* surface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = surface.cpp; sourceTree = "<group>"; };
+		EA77231B1C6EBC780067BC6E /* scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		EA77231C1C6EBE100067BC6E /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		EA7723201C6EC0320067BC6E /* camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camera.h; sourceTree = "<group>"; };
+		EA7723211C6EC0410067BC6E /* ray_tracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray_tracer.h; sourceTree = "<group>"; };
 		EA8CA92D1C6EA12F00754F8B /* Simple Ray Tracer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Ray Tracer"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA8CA9301C6EA12F00754F8B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EA8CA9371C6EA13F00754F8B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EA8CA9391C6EA14600754F8B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EA8CA93F1C6EA1F800754F8B /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EA8CA9481C6EA35500754F8B /* point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = point.h; sourceTree = "<group>"; };
+		EA8CA9491C6EA45100754F8B /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		EA8CA94A1C6EA4C600754F8B /* point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = point.cpp; sourceTree = "<group>"; };
+		EA8CA94C1C6EA54200754F8B /* vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vector.cpp; sourceTree = "<group>"; };
+		EA8CA94E1C6EA5BD00754F8B /* ray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ray.h; sourceTree = "<group>"; };
+		EA8CA94F1C6EA68400754F8B /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		EA8CA9501C6EA6E400754F8B /* world.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = world.h; sourceTree = "<group>"; };
+		EA8CA9521C6EA7DD00754F8B /* ray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray.cpp; sourceTree = "<group>"; };
+		EA8CA9541C6EA8CE00754F8B /* color.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color.cpp; sourceTree = "<group>"; };
+		EA8CA9561C6EAA5700754F8B /* world.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = world.cpp; sourceTree = "<group>"; };
+		EAC070B41C6EF2C100607A99 /* camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = camera.cpp; sourceTree = "<group>"; };
+		EAC070B61C6EF9A800607A99 /* ray_tracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ray_tracer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA8CA93A1C6EA14600754F8B /* GLUT.framework in Frameworks */,
+				EA8CA9381C6EA13F00754F8B /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +86,8 @@
 		EA8CA9241C6EA12F00754F8B = {
 			isa = PBXGroup;
 			children = (
+				EA8CA9391C6EA14600754F8B /* GLUT.framework */,
+				EA8CA9371C6EA13F00754F8B /* OpenGL.framework */,
 				EA8CA92F1C6EA12F00754F8B /* Simple Ray Tracer */,
 				EA8CA92E1C6EA12F00754F8B /* Products */,
 			);
@@ -57,9 +104,83 @@
 		EA8CA92F1C6EA12F00754F8B /* Simple Ray Tracer */ = {
 			isa = PBXGroup;
 			children = (
-				EA8CA9301C6EA12F00754F8B /* main.cpp */,
+				EA8CA93D1C6EA1F800754F8B /* include */,
+				EA8CA93E1C6EA1F800754F8B /* src */,
 			);
 			path = "Simple Ray Tracer";
+			sourceTree = "<group>";
+		};
+		EA8CA93D1C6EA1F800754F8B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CA9431C6EA23700754F8B /* Objects */,
+				EA8CA9441C6EA23700754F8B /* World */,
+				EA77231B1C6EBC780067BC6E /* scene.h */,
+				EA7723201C6EC0320067BC6E /* camera.h */,
+				EA7723211C6EC0410067BC6E /* ray_tracer.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EA8CA93E1C6EA1F800754F8B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CA93F1C6EA1F800754F8B /* main.cpp */,
+				EA8CA9401C6EA1F800754F8B /* Objects */,
+				EA8CA9411C6EA1F800754F8B /* World */,
+				EA77231C1C6EBE100067BC6E /* scene.cpp */,
+				EAC070B41C6EF2C100607A99 /* camera.cpp */,
+				EAC070B61C6EF9A800607A99 /* ray_tracer.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EA8CA9401C6EA1F800754F8B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EA7723111C6EB08E0067BC6E /* light.cpp */,
+				EA7723131C6EB0A70067BC6E /* material.cpp */,
+				EA7723151C6EB0B80067BC6E /* plane.cpp */,
+				EA7723171C6EB0FF0067BC6E /* sphere.cpp */,
+				EA7723191C6EB10E0067BC6E /* surface.cpp */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		EA8CA9411C6EA1F800754F8B /* World */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CA9541C6EA8CE00754F8B /* color.cpp */,
+				EA8CA94A1C6EA4C600754F8B /* point.cpp */,
+				EA8CA9521C6EA7DD00754F8B /* ray.cpp */,
+				EA8CA94C1C6EA54200754F8B /* vector.cpp */,
+				EA8CA9561C6EAA5700754F8B /* world.cpp */,
+			);
+			path = World;
+			sourceTree = "<group>";
+		};
+		EA8CA9431C6EA23700754F8B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EA7723101C6EADF20067BC6E /* light.h */,
+				EA77230F1C6EADE20067BC6E /* material.h */,
+				EA77230E1C6EADC30067BC6E /* plane.h */,
+				EA77230D1C6EADB90067BC6E /* sphere.h */,
+				EA77230C1C6EACD20067BC6E /* surface.h */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		EA8CA9441C6EA23700754F8B /* World */ = {
+			isa = PBXGroup;
+			children = (
+				EA8CA94F1C6EA68400754F8B /* color.h */,
+				EA8CA9481C6EA35500754F8B /* point.h */,
+				EA8CA94E1C6EA5BD00754F8B /* ray.h */,
+				EA8CA9491C6EA45100754F8B /* vector.h */,
+				EA8CA9501C6EA6E400754F8B /* world.h */,
+			);
+			path = World;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +239,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA8CA9311C6EA12F00754F8B /* main.cpp in Sources */,
+				EAC070B51C6EF2C100607A99 /* camera.cpp in Sources */,
+				EA8CA9551C6EA8CE00754F8B /* color.cpp in Sources */,
+				EA8CA9531C6EA7DD00754F8B /* ray.cpp in Sources */,
+				EA8CA94B1C6EA4C600754F8B /* point.cpp in Sources */,
+				EA8CA9421C6EA1F800754F8B /* main.cpp in Sources */,
+				EAC070B81C6EF9A800607A99 /* ray_tracer.cpp in Sources */,
+				EA77231D1C6EBE100067BC6E /* scene.cpp in Sources */,
+				EA77231A1C6EB10E0067BC6E /* surface.cpp in Sources */,
+				EA7723181C6EB0FF0067BC6E /* sphere.cpp in Sources */,
+				EA7723141C6EB0A70067BC6E /* material.cpp in Sources */,
+				EA7723161C6EB0B80067BC6E /* plane.cpp in Sources */,
+				EA7723121C6EB08E0067BC6E /* light.cpp in Sources */,
+				EA8CA9571C6EAA5700754F8B /* world.cpp in Sources */,
+				EA8CA94D1C6EA54200754F8B /* vector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +341,7 @@
 		EA8CA9351C6EA12F00754F8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +349,7 @@
 		EA8CA9361C6EA12F00754F8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -237,6 +373,7 @@
 				EA8CA9361C6EA12F00754F8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
